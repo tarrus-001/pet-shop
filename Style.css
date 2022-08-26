@@ -1,0 +1,109 @@
+ <style>
+     *{
+            box-sizing: border-box;
+      }
+      body{
+          Margin:0;
+          Background: gray;
+
+      }
+nav{
+    background: lightseagreen;
+    width: 100%;
+    overflow: auto;
+
+}
+ul{
+    margin:50;
+    padding:0;
+    list-style:none;
+    
+
+}
+li{
+    float:left;
+
+}
+
+nav a{
+    width: 90px;
+    display:block;
+    text-decoration:none;
+    text-align:center;
+    font-size:17px;
+    color:white;
+    padding:10px 10px;
+    margin-left: 450px;
+    margin-top: -10px;
+    
+}
+nav a:hover{
+    background:black;
+    color:gray;
+}
+.name{
+	margin-left: 25px;
+	margin-top: 30px;
+	width: 125px;
+	color:white;
+	font-size: 18px;
+	font-weight: 600; 
+}
+.option{
+	position: relative;
+	left: 2px;
+	top: 15px;
+	line-height: 35px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 8px;
+
+
+}
+.lastname{
+	position: relative;
+	left: 200px;
+	top: -2px;
+	line-height: 38px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size:8px;
+}
+.firstlabel{
+	position: relative;
+	color: black;
+	text-transform: capitalize;
+	font-size: 14px;
+	left: 1000px;
+	top: -60px;
+}
+.lastlabel{
+	position: relative;
+	color: black;
+	text-transform: capitalize;
+	font-size: 14px;
+	left: 300px;
+	top: -65px;
+}
+.button{
+	position: relative;
+	left: 417px;
+	top: -8px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size:16px;
+}
+.number{
+	position: relative;
+	left: 200px;
+	top: -37px;
+	line-height: 40px;
+	width: 280px;
+	border-radius: 6px
+	padding:0 22px;
+	font-size: 16px;
+	color:#555;
+}
+        </style>
+       
